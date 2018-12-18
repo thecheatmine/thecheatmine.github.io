@@ -34,7 +34,6 @@ class current {
     let AC = Math.sqrt(Math.pow(x3-x1,2)+ Math.pow(y3-y1,2));
     this.angle = Math.acos((BC*BC+AB*AB-AC*AC)/(2*BC*AB));
   }
-}
 
   getDistance(x1,y1,x2,y2){
     this.distance = Math.sqrt(Math.pow(Math.abs(x1-x2), 2) + Math.pow(Math.abs(y1-y2), 2));
